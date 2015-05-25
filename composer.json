@@ -1,0 +1,10 @@
+{
+    "name"       : "ryanmarkel/marginal",
+    "description": "Simple and semantic footnotes for WordPress.",
+    "homepage"   : "https://ryanmarkel.com/plugins/marginal/",
+    "type"       : "wordpress-plugin",
+    "license"    : "GPL-2.0+",
+    "require"    : {
+        "composer/installers": "~1.0"
+    }
+}
