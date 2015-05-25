@@ -1,10 +1,11 @@
 <?php
 /*
-Plugin Name: Civil Footnotes
-Plugin URI: https://defomicron.net/projects/civil_footnotes
-Version: 1.3.1
-Description: Parses and displays footnotes. Based on <a href="http://elvery.net/drzax/wordpress-footnotes-plugin">WP-Foonotes</a> by <a href="http://elvery.net">Simon Elvery</a>, and the footnote syntax pioneered by <a href="http://daringfireball.net/2005/07/footnotes">John Gruber</a>.
-Author: <a href="https://defomicron.net/colophon">Austin Sweeney</a>
+Plugin Name: Marginal
+Plugin URI: https://ryanmarkel.com/plugins/marginal/
+Version: 1.0
+Description: Simple and semantic footnotes for WordPress. Forked from <a href="http://defomicron.net/projects/civil_footnotes">Civil Footnotes</a> by <a href="https://defomicron.net">Austin Sweeney</a>.
+Author: Ryan Markel
+Author URI:  https://ryanmarkel.com/
 */
 
 // If you’d like to edit the output, scroll down to the
@@ -13,7 +14,7 @@ Author: <a href="https://defomicron.net/colophon">Austin Sweeney</a>
 // Some important constants
 define('WP_FOOTNOTES_OPEN', " ((");
 define('WP_FOOTNOTES_CLOSE', "))");
-define('WP_FOOTNOTES_VERSION', '1.3.1');
+define('WP_FOOTNOTES_VERSION', '1.0');
 
 // Instantiate the class 
 $swas_wp_footnotes = new swas_wp_footnotes();
